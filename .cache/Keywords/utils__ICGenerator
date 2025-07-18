@@ -1,0 +1,36 @@
+{
+  "keywordFileContentHash": "046170F620F59CBBCB5C7192AAD5A3E7",
+  "keywordClasses": [
+    {
+      "name": "utils.ICGenerator",
+      "keywordMethods": [
+        {
+          "name": "generateRandomIC",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "generateRandomMalaysianWomanName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "generateRandomIC1",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "generateRandomMalaysianManName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "generateRandomBankAccount",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NKM End to End" time="119.648" tests="2" failures="0" errors="0">
+   <testsuite name="NKM End to End" tests="2" failures="0" errors="0" time="119.648" skipped="0" timestamp="2025-07-17 14:10:29" hostname="aaror - Aarorn_QA" id="Test Suites/NKM/NKM End to End">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aaror\\git\\Automation-Test\\Reports\\20250717_141015\\NKM\\NKM End to End\\20250717_141027"/>
+         <property name="logFiles" value="C:\\Users\\aaror\\git\\Automation-Test\\Reports\\20250717_141015\\NKM\\NKM End to End\\20250717_141027\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aaror - Aarorn_QA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.10.208"/>
+         <property name="browser" value="Chrome 138.0.0.0"/>
+         <property name="hostAddress" value="10.131.3.62"/>
+         <property name="sessionId" value="4127711ac8297a108b5d00637567382f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/NKM/SAO_LULUS Pengesyoran/SAO_lulus kes" time="62.69" classname="Test Cases/NKM/SAO_LULUS Pengesyoran/SAO_lulus kes" status="PASSED">
+         <system-out><![CDATA[2025-07-17 14:10:29 - [TEST_CASE][PASSED] - Test Cases/NKM/SAO_LULUS Pengesyoran/SAO_lulus kes: Test Cases/NKM/SAO_LULUS Pengesyoran/SAO_lulus kes
+
+2025-07-17 14:10:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NKM/IO_Menunggu Pengesyoran/IO_menunggu pengesyoran"), null): Call Test Case 'Test Cases/NKM/IO_Menunggu Pengesyoran/IO_menunggu pengesyoran' successfully
+
+2025-07-17 14:10:30 - [TEST_CASE][PASSED] - Test Cases/NKM/IO_Menunggu Pengesyoran/IO_menunggu pengesyoran: Test Cases/NKM/IO_Menunggu Pengesyoran/IO_menunggu pengesyoran
+
+2025-07-17 14:10:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NKM/Profil SRB"), null): Call Test Case 'Test Cases/NKM/Profil SRB' successfully
+
+2025-07-17 14:10:30 - [TEST_CASE][PASSED] - Test Cases/NKM/Profil SRB: Test Cases/NKM/Profil SRB
+
+2025-07-17 14:10:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NKM/NOTIS ASAL_NKM"), null): Call Test Case 'Test Cases/NKM/NOTIS ASAL_NKM' successfully
+
+2025-07-17 14:10:31 - [TEST_CASE][PASSED] - Test Cases/NKM/NOTIS ASAL_NKM: Test Cases/NKM/NOTIS ASAL_NKM
+
+2025-07-17 14:10:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login page_pk user"), null): Call Test Case 'Test Cases/Login page_pk user' successfully
+
+2025-07-17 14:10:31 - [TEST_CASE][PASSED] - Test Cases/Login page_pk user: Test Cases/Login page_pk user
+
+2025-07-17 14:10:31 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:10:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-07-17 14:10:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-07-17 14:10:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:10:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-07-17 14:10:35 - [MESSAGE][PASSED] - Current window maximized
+
+2025-07-17 14:10:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 0): Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.pk@perkeso.gov.my"): Text 'user.pk@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:10:36 - [MESSAGE][PASSED] - Text 'user.pk@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:10:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 0): Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:10:37 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:10:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page_pk user' successfully
+
+2025-07-17 14:10:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/a_Notis Tuntutan Baru"), 30): Object 'Object Repository/a_Notis Tuntutan Baru' is present
+
+2025-07-17 14:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/a_Notis Tuntutan Baru' is present
+
+2025-07-17 14:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Notis Tuntutan Baru")): Object: 'Object Repository/a_Notis Tuntutan Baru' is clicked on
+
+2025-07-17 14:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Notis Tuntutan Baru' is clicked on
+
+2025-07-17 14:10:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/NKM/a_NKM"), 0): Object 'Object Repository/NKM/a_NKM' is visible
+
+2025-07-17 14:10:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/a_NKM' is visible
+
+2025-07-17 14:10:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/a_NKM")): Object: 'Object Repository/NKM/a_NKM' is clicked on
+
+2025-07-17 14:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/a_NKM' is clicked on
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/NKM/input_ no kad pengenalan text field"), 10): Object 'Object Repository/NKM/input_ no kad pengenalan text field' is present
+
+2025-07-17 14:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/input_ no kad pengenalan text field' is present
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/input_ no kad pengenalan text field")): Object: 'Object Repository/NKM/input_ no kad pengenalan text field' is clicked on
+
+2025-07-17 14:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/input_ no kad pengenalan text field' is clicked on
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - icNumber = ICGenerator.generateRandomIC(): null
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - println("Generated IC: " + icNumber): null
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/input_ no kad pengenalan text field"), icNumber): Text '970316100788' is set on object 'Object Repository/NKM/input_ no kad pengenalan text field'
+
+2025-07-17 14:10:40 - [MESSAGE][PASSED] - Text '970316100788' is set on object 'Object Repository/NKM/input_ no kad pengenalan text field'
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/NKM/input_death date"), 0): Object 'Object Repository/NKM/input_death date' is visible
+
+2025-07-17 14:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/input_death date' is visible
+
+2025-07-17 14:10:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/input_death date"), "01/06/2025"): Text '01/06/2025' is set on object 'Object Repository/NKM/input_death date'
+
+2025-07-17 14:10:41 - [MESSAGE][PASSED] - Text '01/06/2025' is set on object 'Object Repository/NKM/input_death date'
+
+2025-07-17 14:10:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/button_carian")): Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:10:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/button_daftar kes baru")): Object: 'Object Repository/NKM/button_daftar kes baru' is clicked on
+
+2025-07-17 14:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/button_daftar kes baru' is clicked on
+
+2025-07-17 14:10:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NKM/NOTIS ASAL_NKM' successfully
+
+2025-07-17 14:10:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Tarikh terima borang"), 0): Object 'Object Repository/NKM/Profil SRB/Tarikh terima borang' is present
+
+2025-07-17 14:10:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Tarikh terima borang' is present
+
+2025-07-17 14:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/Tarikh terima borang"), "01/07/2025"): Text '01/07/2025' is set on object 'Object Repository/NKM/Profil SRB/Tarikh terima borang'
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Text '01/07/2025' is set on object 'Object Repository/NKM/Profil SRB/Tarikh terima borang'
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima"), 0): Object 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is present
+
+2025-07-17 14:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is present
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima")): Object: 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is clicked on
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is clicked on
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option Online")): Object: 'Object Repository/NKM/Profil SRB/Option Online' is clicked on
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option Online' is clicked on
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/input_butiran srb name"), 0): Object 'Object Repository/NKM/Profil SRB/input_butiran srb name' is present
+
+2025-07-17 14:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/input_butiran srb name' is present
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - womanName = ICGenerator.generateRandomMalaysianWomanName(): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - println("Generated Name: " + womanName): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_butiran srb name"), womanName): Text 'Amirah Aisyah Binti Hassan' is set on object 'Object Repository/NKM/Profil SRB/input_butiran srb name'
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Text 'Amirah Aisyah Binti Hassan' is set on object 'Object Repository/NKM/Profil SRB/input_butiran srb name'
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/input_no kad pengenalan"), 10): Object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is present
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is present
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - NoKadPengenalan = getAttribute(findTestObject("Object Repository/NKM/Profil SRB/input_no kad pengenalan"), "value"): Attribute 'value' of object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is: '970316100788'
+
+2025-07-17 14:10:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is: '970316100788'
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - println("Raw IC: " + NoKadPengenalan): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - icDatePart = NoKadPengenalan.substring(0, 6): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - yy = icDatePart.substring(0, 2): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - mm = icDatePart.substring(2, 4): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - dd = icDatePart.substring(4, 6): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - yearInt = Integer.parseInt(yy): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - if (yearInt >= 0 && yearInt <= 24): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - else: null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - yearInt += 1900: null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - formattedDate = String.format("%02d/%02d/%d", Integer.parseInt(dd), Integer.parseInt(mm), yearInt): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - println("Formatted Date: " + formattedDate): null
+
+2025-07-17 14:10:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/input_Tarikh lahir"), 0): Object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir' is present
+
+2025-07-17 14:10:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir' is present
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_Tarikh lahir"), formattedDate): Text '16/03/1997' is set on object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir'
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Text '16/03/1997' is set on object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir'
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_warganegara"), 0): Object 'Object Repository/NKM/Profil SRB/Select_warganegara' is present
+
+2025-07-17 14:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_warganegara' is present
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Select_warganegara")): Object: 'Object Repository/NKM/Profil SRB/Select_warganegara' is clicked on
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Select_warganegara' is clicked on
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/option_malaysia"), 0): Object 'Object Repository/NKM/Profil SRB/option_malaysia' is present
+
+2025-07-17 14:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/option_malaysia' is present
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/option_malaysia")): Object: 'Object Repository/NKM/Profil SRB/option_malaysia' is clicked on
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/option_malaysia' is clicked on
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/select_bangsa"), 0): Object 'Object Repository/NKM/Profil SRB/select_bangsa' is present
+
+2025-07-17 14:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/select_bangsa' is present
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/select_bangsa")): Object: 'Object Repository/NKM/Profil SRB/select_bangsa' is clicked on
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/select_bangsa' is clicked on
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/option_bangsa"), 0): Object 'Object Repository/NKM/Profil SRB/option_bangsa' is present
+
+2025-07-17 14:10:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/option_bangsa' is present
+
+2025-07-17 14:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/option_bangsa")): Object: 'Object Repository/NKM/Profil SRB/option_bangsa' is clicked on
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/option_bangsa' is clicked on
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_status perkahwinan"), 0): Object 'Object Repository/NKM/Profil SRB/Select_status perkahwinan' is present
+
+2025-07-17 14:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_status perkahwinan' is present
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option_status perkahwinna")): Object: 'Object Repository/NKM/Profil SRB/Option_status perkahwinna' is clicked on
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option_status perkahwinna' is clicked on
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_status bekerja"), 0): Object 'Object Repository/NKM/Profil SRB/Select_status bekerja' is present
+
+2025-07-17 14:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_status bekerja' is present
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Select_status bekerja")): Object: 'Object Repository/NKM/Profil SRB/Select_status bekerja' is clicked on
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Select_status bekerja' is clicked on
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Option_status bekerja"), 0): Object 'Object Repository/NKM/Profil SRB/Option_status bekerja' is present
+
+2025-07-17 14:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Option_status bekerja' is present
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option_status bekerja")): Object: 'Object Repository/NKM/Profil SRB/Option_status bekerja' is clicked on
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option_status bekerja' is clicked on
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/Input_alamat"), "Kampung baru jalan ABC"): Text 'Kampung baru jalan ABC' is set on object 'Object Repository/NKM/Profil SRB/Input_alamat'
+
+2025-07-17 14:10:45 - [MESSAGE][PASSED] - Text 'Kampung baru jalan ABC' is set on object 'Object Repository/NKM/Profil SRB/Input_alamat'
+
+2025-07-17 14:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_bandar"), "Kelana jaya"): Text 'Kelana jaya' is set on object 'Object Repository/NKM/Profil SRB/input_bandar'
+
+2025-07-17 14:10:46 - [MESSAGE][PASSED] - Text 'Kelana jaya' is set on object 'Object Repository/NKM/Profil SRB/input_bandar'
+
+2025-07-17 14:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_postcode"), "54200"): Text '54200' is set on object 'Object Repository/NKM/Profil SRB/input_postcode'
+
+2025-07-17 14:10:46 - [MESSAGE][PASSED] - Text '54200' is set on object 'Object Repository/NKM/Profil SRB/input_postcode'
+
+2025-07-17 14:10:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_negeri"), 0): Object 'Object Repository/NKM/Profil SRB/Select_negeri' is present
+
+2025-07-17 14:10:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_negeri' is present
+
+2025-07-17 14:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option_negeri")): Object: 'Object Repository/NKM/Profil SRB/Option_negeri' is clicked on
+
+2025-07-17 14:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option_negeri' is clicked on
+
+2025-07-17 14:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_no telephone rumah"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/input_no telephone rumah'
+
+2025-07-17 14:10:46 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/input_no telephone rumah'
+
+2025-07-17 14:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/Input_no telephone bimbit"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/Input_no telephone bimbit'
+
+2025-07-17 14:10:46 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/Input_no telephone bimbit'
+
+2025-07-17 14:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_email"), "rccsituseonly@gmail.com"): Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Profil SRB/input_email'
+
+2025-07-17 14:10:47 - [MESSAGE][PASSED] - Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Profil SRB/input_email'
+
+2025-07-17 14:10:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/button_simpan"), 0): Object 'Object Repository/NKM/Profil SRB/button_simpan' is present
+
+2025-07-17 14:10:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:47 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/button_simpan' is present
+
+2025-07-17 14:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/button_simpan")): Object: 'Object Repository/NKM/Profil SRB/button_simpan' is clicked on
+
+2025-07-17 14:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/button_simpan' is clicked on
+
+2025-07-17 14:10:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/butiran caruman SRB/input_tarikh mula"), 0): Object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula' is present
+
+2025-07-17 14:10:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula' is present
+
+2025-07-17 14:10:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/butiran caruman SRB/input_tarikh mula"), "01/01/2025"): Text '01/01/2025' is set on object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula'
+
+2025-07-17 14:10:49 - [MESSAGE][PASSED] - Text '01/01/2025' is set on object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula'
+
+2025-07-17 14:10:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/butiran caruman SRB/Select_bilangan Caruman"), 0): Object 'Object Repository/NKM/butiran caruman SRB/Select_bilangan Caruman' is present
+
+2025-07-17 14:10:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/butiran caruman SRB/Select_bilangan Caruman' is present
+
+2025-07-17 14:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/butiran caruman SRB/Option_bilangan Caruman")): Object: 'Object Repository/NKM/butiran caruman SRB/Option_bilangan Caruman' is clicked on
+
+2025-07-17 14:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/butiran caruman SRB/Option_bilangan Caruman' is clicked on
+
+2025-07-17 14:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/butiran caruman SRB/Button_tambah")): Object: 'Object Repository/NKM/butiran caruman SRB/Button_tambah' is clicked on
+
+2025-07-17 14:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/butiran caruman SRB/Button_tambah' is clicked on
+
+2025-07-17 14:10:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/butiran caruman SRB/Button_selanjutnya"), 0): Object 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is present
+
+2025-07-17 14:10:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is present
+
+2025-07-17 14:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/butiran caruman SRB/Button_selanjutnya")): Object: 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is clicked on
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is clicked on
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Butis notis kematian/Select_punca kematian"), 0): Object 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is present
+
+2025-07-17 14:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is present
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butis notis kematian/Select_punca kematian")): Object: 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is clicked on
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is clicked on
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Butis notis kematian/Option_becana domestik"), 0): Object 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is present
+
+2025-07-17 14:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is present
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butis notis kematian/Option_becana domestik")): Object: 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is clicked on
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is clicked on
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butis notis kematian/Textarea_sebab kematian"), "TEST ABC"): Text 'TEST ABC' is set on object 'Object Repository/NKM/Butis notis kematian/Textarea_sebab kematian'
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Text 'TEST ABC' is set on object 'Object Repository/NKM/Butis notis kematian/Textarea_sebab kematian'
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butis notis kematian/Button_simpan")): Object: 'Object Repository/NKM/Butis notis kematian/Button_simpan' is clicked on
+
+2025-07-17 14:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butis notis kematian/Button_simpan' is clicked on
+
+2025-07-17 14:10:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Butiran Pemohon/input_nama pemohon"), 0): Object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon' is present
+
+2025-07-17 14:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon' is present
+
+2025-07-17 14:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_nama pemohon"), womanName): Text 'Amirah Aisyah Binti Hassan' is set on object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon'
+
+2025-07-17 14:10:53 - [MESSAGE][PASSED] - Text 'Amirah Aisyah Binti Hassan' is set on object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon'
+
+2025-07-17 14:10:53 - [TEST_STEP][PASSED] - KadPengenalan = ICGenerator.generateRandomIC1(): null
+
+2025-07-17 14:10:53 - [TEST_STEP][PASSED] - println("Generated Name: " + KadPengenalan): null
+
+2025-07-17 14:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_ no kad pengenalan"), KadPengenalan): Text '900122090166' is set on object 'Object Repository/NKM/Butiran Pemohon/input_ no kad pengenalan'
+
+2025-07-17 14:10:53 - [MESSAGE][PASSED] - Text '900122090166' is set on object 'Object Repository/NKM/Butiran Pemohon/input_ no kad pengenalan'
+
+2025-07-17 14:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_alamat"), "Kampung Baru AJL "): Text 'Kampung Baru AJL ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_alamat'
+
+2025-07-17 14:10:53 - [MESSAGE][PASSED] - Text 'Kampung Baru AJL ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_alamat'
+
+2025-07-17 14:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_bandar"), "setapak "): Text 'setapak ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_bandar'
+
+2025-07-17 14:10:54 - [MESSAGE][PASSED] - Text 'setapak ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_bandar'
+
+2025-07-17 14:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_postcode"), "54200"): Text '54200' is set on object 'Object Repository/NKM/Butiran Pemohon/input_postcode'
+
+2025-07-17 14:10:54 - [MESSAGE][PASSED] - Text '54200' is set on object 'Object Repository/NKM/Butiran Pemohon/input_postcode'
+
+2025-07-17 14:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran Pemohon/Select_negeri")): Object: 'Object Repository/NKM/Butiran Pemohon/Select_negeri' is clicked on
+
+2025-07-17 14:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran Pemohon/Select_negeri' is clicked on
+
+2025-07-17 14:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran Pemohon/select_negeri wilayah")): Object: 'Object Repository/NKM/Butiran Pemohon/select_negeri wilayah' is clicked on
+
+2025-07-17 14:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran Pemohon/select_negeri wilayah' is clicked on
+
+2025-07-17 14:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/Input_no telephone"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/Input_no telephone'
+
+2025-07-17 14:10:54 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/Input_no telephone'
+
+2025-07-17 14:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_telephone bimbit"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/input_telephone bimbit'
+
+2025-07-17 14:10:54 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/input_telephone bimbit'
+
+2025-07-17 14:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_email"), "rccsituseonly@gmail.com"): Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Butiran Pemohon/input_email'
+
+2025-07-17 14:10:55 - [MESSAGE][PASSED] - Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Butiran Pemohon/input_email'
+
+2025-07-17 14:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran Pemohon/button_simpan")): Object: 'Object Repository/NKM/Butiran Pemohon/button_simpan' is clicked on
+
+2025-07-17 14:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran Pemohon/button_simpan' is clicked on
+
+2025-07-17 14:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_kategori tanggungan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kategori tanggungan' is clicked on
+
+2025-07-17 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kategori tanggungan' is clicked on
+
+2025-07-17 14:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_duda dan anak")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda dan anak' is clicked on
+
+2025-07-17 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda dan anak' is clicked on
+
+2025-07-17 14:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_pilih")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_pilih' is clicked on
+
+2025-07-17 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_pilih' is clicked on
+
+2025-07-17 14:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_tambah OT")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_tambah OT' is clicked on
+
+2025-07-17 14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_tambah OT' is clicked on
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - maleName = ICGenerator.generateRandomMalaysianManName(): null
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - println("Generated Male Malaysian Name: " + maleName): null
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_Name"), maleName): Text 'Mohd Imran Bin Ahmad' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_Name'
+
+2025-07-17 14:10:58 - [MESSAGE][PASSED] - Text 'Mohd Imran Bin Ahmad' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_Name'
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_jenis pengenalan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_jenis pengenalan' is clicked on
+
+2025-07-17 14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_jenis pengenalan' is clicked on
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_kad baru")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_kad baru' is clicked on
+
+2025-07-17 14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_kad baru' is clicked on
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_no kad pengenalan"), KadPengenalan): Text '900122090166' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no kad pengenalan'
+
+2025-07-17 14:10:58 - [MESSAGE][PASSED] - Text '900122090166' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no kad pengenalan'
+
+2025-07-17 14:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_kewarganegaraan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kewarganegaraan' is clicked on
+
+2025-07-17 14:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kewarganegaraan' is clicked on
+
+2025-07-17 14:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_malaysia")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_malaysia' is clicked on
+
+2025-07-17 14:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_malaysia' is clicked on
+
+2025-07-17 14:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_Hubungan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_Hubungan' is clicked on
+
+2025-07-17 14:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_Hubungan' is clicked on
+
+2025-07-17 14:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_duda")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda' is clicked on
+
+2025-07-17 14:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda' is clicked on
+
+2025-07-17 14:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_simpan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:10:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB"), 0): Object 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is present
+
+2025-07-17 14:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:00 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is present
+
+2025-07-17 14:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is clicked on
+
+2025-07-17 14:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is clicked on
+
+2025-07-17 14:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_Ya")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_Ya' is clicked on
+
+2025-07-17 14:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_Ya' is clicked on
+
+2025-07-17 14:11:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_no telephone"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone'
+
+2025-07-17 14:11:00 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone'
+
+2025-07-17 14:11:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit'
+
+2025-07-17 14:11:01 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit'
+
+2025-07-17 14:11:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_email"), "rccsituseonly@gmail.com"): Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_email'
+
+2025-07-17 14:11:01 - [MESSAGE][PASSED] - Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_email'
+
+2025-07-17 14:11:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb"), "01/05/2015"): Text '01/05/2015' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb'
+
+2025-07-17 14:11:01 - [MESSAGE][PASSED] - Text '01/05/2015' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb'
+
+2025-07-17 14:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_simpan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:11:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank"), 0): Object 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is present
+
+2025-07-17 14:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is present
+
+2025-07-17 14:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank")): Object: 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is clicked on
+
+2025-07-17 14:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is clicked on
+
+2025-07-17 14:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_yes")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_yes' is clicked on
+
+2025-07-17 14:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_yes' is clicked on
+
+2025-07-17 14:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_akaun bank")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_akaun bank' is clicked on
+
+2025-07-17 14:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_akaun bank' is clicked on
+
+2025-07-17 14:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_akaun bank")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_akaun bank' is clicked on
+
+2025-07-17 14:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_akaun bank' is clicked on
+
+2025-07-17 14:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/option_1")): Object: 'Object Repository/NKM/Senarai orang tanggungan/option_1' is clicked on
+
+2025-07-17 14:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/option_1' is clicked on
+
+2025-07-17 14:11:03 - [TEST_STEP][PASSED] - accountNumber = ICGenerator.generateRandomBankAccount(): null
+
+2025-07-17 14:11:03 - [TEST_STEP][PASSED] - println("Generated Bank Account Number: " + accountNumber): null
+
+2025-07-17 14:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/input_no akaun bank"), accountNumber): Text '90661746429941' is set on object 'Object Repository/NKM/Senarai orang tanggungan/input_no akaun bank'
+
+2025-07-17 14:11:03 - [MESSAGE][PASSED] - Text '90661746429941' is set on object 'Object Repository/NKM/Senarai orang tanggungan/input_no akaun bank'
+
+2025-07-17 14:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/button_simpann")): Object: 'Object Repository/NKM/Senarai orang tanggungan/button_simpann' is clicked on
+
+2025-07-17 14:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/button_simpann' is clicked on
+
+2025-07-17 14:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_selanjutnya")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_selanjutnya' is clicked on
+
+2025-07-17 14:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_selanjutnya' is clicked on
+
+2025-07-17 14:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Button_Tambah Penuntut")): Object: 'Object Repository/NKM/Butiran FPM/Button_Tambah Penuntut' is clicked on
+
+2025-07-17 14:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Button_Tambah Penuntut' is clicked on
+
+2025-07-17 14:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Select_pilih pemohon FPM")): Object: 'Object Repository/NKM/Butiran FPM/Select_pilih pemohon FPM' is clicked on
+
+2025-07-17 14:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Select_pilih pemohon FPM' is clicked on
+
+2025-07-17 14:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Option_yes")): Object: 'Object Repository/NKM/Butiran FPM/Option_yes' is clicked on
+
+2025-07-17 14:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Option_yes' is clicked on
+
+2025-07-17 14:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/button_simpan")): Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Select_Senarai tanggungan")): Object: 'Object Repository/NKM/Butiran FPM/Select_Senarai tanggungan' is clicked on
+
+2025-07-17 14:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Select_Senarai tanggungan' is clicked on
+
+2025-07-17 14:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/option_duda")): Object: 'Object Repository/NKM/Butiran FPM/option_duda' is clicked on
+
+2025-07-17 14:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/option_duda' is clicked on
+
+2025-07-17 14:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/button_simpan")): Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Button_selanjutnya")): Object: 'Object Repository/NKM/Butiran FPM/Button_selanjutnya' is clicked on
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Button_selanjutnya' is clicked on
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Document sokongan/input_akaun bank"), 10): Object 'Object Repository/NKM/Document sokongan/input_akaun bank' is present
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Document sokongan/input_akaun bank' is present
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - filePath = "C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv": null
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_akaun bank"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_akaun bank'
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_akaun bank'
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_borang SR6"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_borang SR6'
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_borang SR6'
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_salinan kad pengenalan"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_salinan kad pengenalan'
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_salinan kad pengenalan'
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_sijil kematian"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_sijil kematian'
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_sijil kematian'
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/button_carian")): Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Document sokongan/button_selanjutnya")): Object: 'Object Repository/NKM/Document sokongan/button_selanjutnya' is clicked on
+
+2025-07-17 14:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Document sokongan/button_selanjutnya' is clicked on
+
+2025-07-17 14:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/perakuan/select_pengesahan")): Object: 'Object Repository/NKM/perakuan/select_pengesahan' is clicked on
+
+2025-07-17 14:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/perakuan/select_pengesahan' is clicked on
+
+2025-07-17 14:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/perakuan/Option_ya")): Object: 'Object Repository/NKM/perakuan/Option_ya' is clicked on
+
+2025-07-17 14:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/perakuan/Option_ya' is clicked on
+
+2025-07-17 14:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/perakuan/input_tarikh pengesahan lengkap"), "01/07/2025"): Text '01/07/2025' is set on object 'Object Repository/NKM/perakuan/input_tarikh pengesahan lengkap'
+
+2025-07-17 14:11:12 - [MESSAGE][PASSED] - Text '01/07/2025' is set on object 'Object Repository/NKM/perakuan/input_tarikh pengesahan lengkap'
+
+2025-07-17 14:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/perakuan/button_serah")): Object: 'Object Repository/NKM/perakuan/button_serah' is clicked on
+
+2025-07-17 14:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/perakuan/button_serah' is clicked on
+
+2025-07-17 14:11:12 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2025-07-17 14:11:12 - [MESSAGE][PASSED] - Alert accepted
+
+2025-07-17 14:11:12 - [TEST_STEP][PASSED] - rujukanText = getText(findTestObject("Object Repository/NKM/perakuan/div_no rujukan notis")): Text of object 'Object Repository/NKM/perakuan/div_no rujukan notis' is: 'SR31NKM250000189'
+
+2025-07-17 14:11:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/NKM/perakuan/div_no rujukan notis' is: 'SR31NKM250000189'
+
+2025-07-17 14:11:13 - [TEST_STEP][PASSED] - rujukanNotis = rujukanText: null
+
+2025-07-17 14:11:13 - [TEST_STEP][PASSED] - println("No. Rujukan Notis: " + rujukanNotis): null
+
+2025-07-17 14:11:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NKM/Profil SRB' successfully
+
+2025-07-17 14:11:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login page_io user"), null): Call Test Case 'Test Cases/Login page_io user' successfully
+
+2025-07-17 14:11:13 - [TEST_CASE][PASSED] - Test Cases/Login page_io user: Test Cases/Login page_io user
+
+2025-07-17 14:11:13 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:11:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-07-17 14:11:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-07-17 14:11:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-07-17 14:11:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:11:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-07-17 14:11:16 - [MESSAGE][PASSED] - Current window maximized
+
+2025-07-17 14:11:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 0): Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.investigation@perkeso.gov.my "): Text 'user.investigation@perkeso.gov.my ' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:11:16 - [MESSAGE][PASSED] - Text 'user.investigation@perkeso.gov.my ' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:11:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 0): Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:11:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:11:17 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:11:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page_io user' successfully
+
+2025-07-17 14:11:17 - [TEST_STEP][PASSED] - println("No. Rujukan Notis: " + rujukanNotis): null
+
+2025-07-17 14:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/workbasket/a_workbasket")): Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - table = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - rows = table.findElements(By.tagName("tr")): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - targetText = rujukanNotis: null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - isFound = false: null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : rows): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - cells = row.findElements(By.tagName("td")): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell : cells): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetText): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - link = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/a_masuk bakul saya"), 10): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - if (link != null): null
+
+2025-07-17 14:11:19 - [TEST_STEP][PASSED] - link.click(): null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Masuk Bakul Saya'"): null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - table2 = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - rows1 = table2.findElements(By.tagName("tr")): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - targetTexts = rujukanNotis: null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - isFounds = false: null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row1 : rows1): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - cells1 = row1.findElements(By.tagName("td")): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell1 : cells1): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetTexts): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - link1 = findWebElement(findTestObject("Object Repository/NKM/IO/Tugasan Saya/span_papar"), 10): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - if (link1 != null): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - link1.click(): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Papar'"): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_recommend case")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_recommend case' is clicked on
+
+2025-07-17 14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_recommend case' is clicked on
+
+2025-07-17 14:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_pengesyoran")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_pengesyoran' is clicked on
+
+2025-07-17 14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_pengesyoran' is clicked on
+
+2025-07-17 14:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_syor lulus penakat")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_syor lulus penakat' is clicked on
+
+2025-07-17 14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_syor lulus penakat' is clicked on
+
+2025-07-17 14:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/button_semakan domestik")): Object: 'Object Repository/NKM/IO/Tugasan Saya/button_semakan domestik' is clicked on
+
+2025-07-17 14:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/button_semakan domestik' is clicked on
+
+2025-07-17 14:11:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Textarea_catatan"), "Test ABC"): Text 'Test ABC' is set on object 'Object Repository/NKM/IO/Tugasan Saya/Textarea_catatan'
+
+2025-07-17 14:11:23 - [MESSAGE][PASSED] - Text 'Test ABC' is set on object 'Object Repository/NKM/IO/Tugasan Saya/Textarea_catatan'
+
+2025-07-17 14:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Button_hantar")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:11:23 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2025-07-17 14:11:23 - [MESSAGE][PASSED] - Alert accepted
+
+2025-07-17 14:11:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NKM/IO_Menunggu Pengesyoran/IO_menunggu pengesyoran' successfully
+
+2025-07-17 14:11:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login page_SAO user"), null): Call Test Case 'Test Cases/Login page_SAO user' successfully
+
+2025-07-17 14:11:23 - [TEST_CASE][PASSED] - Test Cases/Login page_SAO user: Test Cases/Login page_SAO user
+
+2025-07-17 14:11:23 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:11:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-07-17 14:11:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-07-17 14:11:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-07-17 14:11:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:11:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-07-17 14:11:26 - [MESSAGE][PASSED] - Current window maximized
+
+2025-07-17 14:11:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 0): Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:11:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.sao@perkeso.gov.my"): Text 'user.sao@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:11:26 - [MESSAGE][PASSED] - Text 'user.sao@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:11:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 0): Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:11:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:11:27 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:11:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page_SAO user' successfully
+
+2025-07-17 14:11:27 - [TEST_STEP][PASSED] - println("No. Rujukan Notis: " + rujukanNotis): null
+
+2025-07-17 14:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/workbasket/a_workbasket")): Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - table = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - rows = table.findElements(By.tagName("tr")): null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - targetText = rujukanNotis: null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - isFound = false: null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : rows): null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - cells = row.findElements(By.tagName("td")): null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell : cells): null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:28 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetText): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - link = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/a_masuk bakul saya"), 10): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - if (link != null): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - link.click(): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Masuk Bakul Saya'"): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - table2 = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - rows1 = table2.findElements(By.tagName("tr")): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - targetTexts = rujukanNotis: null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - isFounds = false: null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row1 : rows1): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - cells1 = row1.findElements(By.tagName("td")): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell1 : cells1): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetTexts): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - link1 = findWebElement(findTestObject("Object Repository/NKM/IO/Tugasan Saya/span_papar"), 10): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - if (link1 != null): null
+
+2025-07-17 14:11:30 - [TEST_STEP][PASSED] - link1.click(): null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Papar'"): null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_lulus penakat")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus penakat' is clicked on
+
+2025-07-17 14:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus penakat' is clicked on
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Button_semak bencana domestik")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_semak bencana domestik' is clicked on
+
+2025-07-17 14:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_semak bencana domestik' is clicked on
+
+2025-07-17 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_Status kelulusan")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_Status kelulusan' is clicked on
+
+2025-07-17 14:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_Status kelulusan' is clicked on
+
+2025-07-17 14:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_lulus")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus' is clicked on
+
+2025-07-17 14:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus' is clicked on
+
+2025-07-17 14:11:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/IO/Tugasan Saya/text_catatan pelulus"), "ABC TEST"): Text 'ABC TEST' is set on object 'Object Repository/NKM/IO/Tugasan Saya/text_catatan pelulus'
+
+2025-07-17 14:11:32 - [MESSAGE][PASSED] - Text 'ABC TEST' is set on object 'Object Repository/NKM/IO/Tugasan Saya/text_catatan pelulus'
+
+2025-07-17 14:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Button_hantar")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:11:32 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2025-07-17 14:11:32 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Scenario_1/SAO_lulus_1" time="56.73" classname="Test Cases/Test Scenario_1/SAO_lulus_1" status="PASSED">
+         <system-out><![CDATA[2025-07-17 14:11:32 - [TEST_CASE][PASSED] - Test Cases/Test Scenario_1/SAO_lulus_1: Test Cases/Test Scenario_1/SAO_lulus_1
+
+2025-07-17 14:11:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Scenario_1/IO_menunggu pengesyoran_1"), null): Call Test Case 'Test Cases/Test Scenario_1/IO_menunggu pengesyoran_1' successfully
+
+2025-07-17 14:11:32 - [TEST_CASE][PASSED] - Test Cases/Test Scenario_1/IO_menunggu pengesyoran_1: Test Cases/Test Scenario_1/IO_menunggu pengesyoran_1
+
+2025-07-17 14:11:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Scenario_1/Profil SRB_1"), null): Call Test Case 'Test Cases/Test Scenario_1/Profil SRB_1' successfully
+
+2025-07-17 14:11:33 - [TEST_CASE][PASSED] - Test Cases/Test Scenario_1/Profil SRB_1: Test Cases/Test Scenario_1/Profil SRB_1
+
+2025-07-17 14:11:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Scenario_1/NOTIS ASAL_NKM_1"), null): Call Test Case 'Test Cases/Test Scenario_1/NOTIS ASAL_NKM_1' successfully
+
+2025-07-17 14:11:33 - [TEST_CASE][PASSED] - Test Cases/Test Scenario_1/NOTIS ASAL_NKM_1: Test Cases/Test Scenario_1/NOTIS ASAL_NKM_1
+
+2025-07-17 14:11:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login page_pk user"), null): Call Test Case 'Test Cases/Login page_pk user' successfully
+
+2025-07-17 14:11:33 - [TEST_CASE][PASSED] - Test Cases/Login page_pk user: Test Cases/Login page_pk user
+
+2025-07-17 14:11:33 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:11:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-07-17 14:11:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-07-17 14:11:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-07-17 14:11:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:11:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-07-17 14:11:36 - [MESSAGE][PASSED] - Current window maximized
+
+2025-07-17 14:11:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 0): Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:11:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:11:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.pk@perkeso.gov.my"): Text 'user.pk@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:11:37 - [MESSAGE][PASSED] - Text 'user.pk@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:11:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 0): Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:11:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:11:37 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:11:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page_pk user' successfully
+
+2025-07-17 14:11:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/a_Notis Tuntutan Baru"), 30): Object 'Object Repository/a_Notis Tuntutan Baru' is present
+
+2025-07-17 14:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/a_Notis Tuntutan Baru' is present
+
+2025-07-17 14:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Notis Tuntutan Baru")): Object: 'Object Repository/a_Notis Tuntutan Baru' is clicked on
+
+2025-07-17 14:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Notis Tuntutan Baru' is clicked on
+
+2025-07-17 14:11:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/NKM/a_NKM"), 0): Object 'Object Repository/NKM/a_NKM' is visible
+
+2025-07-17 14:11:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:39 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/a_NKM' is visible
+
+2025-07-17 14:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/a_NKM")): Object: 'Object Repository/NKM/a_NKM' is clicked on
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/a_NKM' is clicked on
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/NKM/input_ no kad pengenalan text field"), 10): Object 'Object Repository/NKM/input_ no kad pengenalan text field' is present
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/input_ no kad pengenalan text field' is present
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/input_ no kad pengenalan text field")): Object: 'Object Repository/NKM/input_ no kad pengenalan text field' is clicked on
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/input_ no kad pengenalan text field' is clicked on
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - icNumber = ICGenerator.generateRandomIC(): null
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - println("Generated IC: " + icNumber): null
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/input_ no kad pengenalan text field"), icNumber): Text '981002040935' is set on object 'Object Repository/NKM/input_ no kad pengenalan text field'
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - Text '981002040935' is set on object 'Object Repository/NKM/input_ no kad pengenalan text field'
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/NKM/input_death date"), 0): Object 'Object Repository/NKM/input_death date' is visible
+
+2025-07-17 14:11:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/input_death date' is visible
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - todayFormatted = utils.DynamicICGenerator.getTodayDateInFormat(): utils.DynamicICGenerator.getTodayDateInFormat is PASSED
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - utils.DynamicICGenerator.getTodayDateInFormat is PASSED
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - println("Today's Date: " + todayFormatted): null
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/input_death date"), todayFormatted): Text '17/07/2025' is set on object 'Object Repository/NKM/input_death date'
+
+2025-07-17 14:11:40 - [MESSAGE][PASSED] - Text '17/07/2025' is set on object 'Object Repository/NKM/input_death date'
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - tarikhterimaborang = todayFormatted: null
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - println("Tarikh Kematian: " + tarikhterimaborang): null
+
+2025-07-17 14:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/button_carian")): Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:11:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/button_daftar kes baru")): Object: 'Object Repository/NKM/button_daftar kes baru' is clicked on
+
+2025-07-17 14:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/button_daftar kes baru' is clicked on
+
+2025-07-17 14:11:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Scenario_1/NOTIS ASAL_NKM_1' successfully
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - tarikhterimaborang = utils.DynamicICGenerator.getTodayDateInFormat(): utils.DynamicICGenerator.getTodayDateInFormat is PASSED
+
+2025-07-17 14:11:42 - [MESSAGE][PASSED] - utils.DynamicICGenerator.getTodayDateInFormat is PASSED
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Tarikh terima borang"), 0): Object 'Object Repository/NKM/Profil SRB/Tarikh terima borang' is present
+
+2025-07-17 14:11:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Tarikh terima borang' is present
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Tarikh terima borang")): Object: 'Object Repository/NKM/Profil SRB/Tarikh terima borang' is clicked on
+
+2025-07-17 14:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Tarikh terima borang' is clicked on
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - todayFormatted = tarikhterimaborang: null
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - dayOnly = todayFormatted.split("/")[0]: null
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - println("Day only for calendar click: " + dayOnly): null
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - dynamicDate = new com.kms.katalon.core.testobject.TestObject(dynamicDate): null
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - dynamicDate.addProperty("xpath", EQUALS, "//td[normalize-space(text())='" + dayOnly + "' and not(contains(@class,'yui3-calendar-selection-disabled'))]"): null
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - waitForElementVisible(dynamicDate, 10): Object 'dynamicDate' is visible
+
+2025-07-17 14:11:42 - [MESSAGE][PASSED] - Object 'dynamicDate' is visible
+
+2025-07-17 14:11:42 - [TEST_STEP][PASSED] - click(dynamicDate): Object: 'dynamicDate' is clicked on
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object: 'dynamicDate' is clicked on
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima"), 0): Object 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is present
+
+2025-07-17 14:11:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is present
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima")): Object: 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is clicked on
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Select_ sumber Notis diterima' is clicked on
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option Online")): Object: 'Object Repository/NKM/Profil SRB/Option Online' is clicked on
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option Online' is clicked on
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/input_butiran srb name"), 0): Object 'Object Repository/NKM/Profil SRB/input_butiran srb name' is present
+
+2025-07-17 14:11:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/input_butiran srb name' is present
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - womanName = ICGenerator.generateRandomMalaysianWomanName(): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - println("Generated Name: " + womanName): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_butiran srb name"), womanName): Text 'Nur Aisyah Binti Abu Bakar' is set on object 'Object Repository/NKM/Profil SRB/input_butiran srb name'
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Text 'Nur Aisyah Binti Abu Bakar' is set on object 'Object Repository/NKM/Profil SRB/input_butiran srb name'
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/input_no kad pengenalan"), 10): Object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is present
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is present
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - NoKadPengenalan = getAttribute(findTestObject("Object Repository/NKM/Profil SRB/input_no kad pengenalan"), "value"): Attribute 'value' of object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is: '981002040935'
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/NKM/Profil SRB/input_no kad pengenalan' is: '981002040935'
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - println("Raw IC: " + NoKadPengenalan): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - icDatePart = NoKadPengenalan.substring(0, 6): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - yy = icDatePart.substring(0, 2): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - mm = icDatePart.substring(2, 4): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - dd = icDatePart.substring(4, 6): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - yearInt = Integer.parseInt(yy): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - if (yearInt >= 0 && yearInt <= 24): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - else: null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - yearInt += 1900: null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - formattedDate = String.format("%02d/%02d/%d", Integer.parseInt(dd), Integer.parseInt(mm), yearInt): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - println("Formatted Date: " + formattedDate): null
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/input_Tarikh lahir"), 0): Object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir' is present
+
+2025-07-17 14:11:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir' is present
+
+2025-07-17 14:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_Tarikh lahir"), formattedDate): Text '02/10/1998' is set on object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir'
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Text '02/10/1998' is set on object 'Object Repository/NKM/Profil SRB/input_Tarikh lahir'
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_warganegara"), 0): Object 'Object Repository/NKM/Profil SRB/Select_warganegara' is present
+
+2025-07-17 14:11:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_warganegara' is present
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Select_warganegara")): Object: 'Object Repository/NKM/Profil SRB/Select_warganegara' is clicked on
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Select_warganegara' is clicked on
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/option_malaysia"), 0): Object 'Object Repository/NKM/Profil SRB/option_malaysia' is present
+
+2025-07-17 14:11:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/option_malaysia' is present
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/option_malaysia")): Object: 'Object Repository/NKM/Profil SRB/option_malaysia' is clicked on
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/option_malaysia' is clicked on
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/select_bangsa"), 0): Object 'Object Repository/NKM/Profil SRB/select_bangsa' is present
+
+2025-07-17 14:11:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/select_bangsa' is present
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/select_bangsa")): Object: 'Object Repository/NKM/Profil SRB/select_bangsa' is clicked on
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/select_bangsa' is clicked on
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/option_bangsa"), 0): Object 'Object Repository/NKM/Profil SRB/option_bangsa' is present
+
+2025-07-17 14:11:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/option_bangsa' is present
+
+2025-07-17 14:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/option_bangsa")): Object: 'Object Repository/NKM/Profil SRB/option_bangsa' is clicked on
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/option_bangsa' is clicked on
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_status perkahwinan"), 0): Object 'Object Repository/NKM/Profil SRB/Select_status perkahwinan' is present
+
+2025-07-17 14:11:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_status perkahwinan' is present
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option_status perkahwinna")): Object: 'Object Repository/NKM/Profil SRB/Option_status perkahwinna' is clicked on
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option_status perkahwinna' is clicked on
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_status bekerja"), 0): Object 'Object Repository/NKM/Profil SRB/Select_status bekerja' is present
+
+2025-07-17 14:11:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_status bekerja' is present
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Select_status bekerja")): Object: 'Object Repository/NKM/Profil SRB/Select_status bekerja' is clicked on
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Select_status bekerja' is clicked on
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Option_status bekerja"), 0): Object 'Object Repository/NKM/Profil SRB/Option_status bekerja' is present
+
+2025-07-17 14:11:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Option_status bekerja' is present
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option_status bekerja")): Object: 'Object Repository/NKM/Profil SRB/Option_status bekerja' is clicked on
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option_status bekerja' is clicked on
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/Input_alamat"), "Kampung baru jalan ABC"): Text 'Kampung baru jalan ABC' is set on object 'Object Repository/NKM/Profil SRB/Input_alamat'
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Text 'Kampung baru jalan ABC' is set on object 'Object Repository/NKM/Profil SRB/Input_alamat'
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_bandar"), "Kelana jaya"): Text 'Kelana jaya' is set on object 'Object Repository/NKM/Profil SRB/input_bandar'
+
+2025-07-17 14:11:45 - [MESSAGE][PASSED] - Text 'Kelana jaya' is set on object 'Object Repository/NKM/Profil SRB/input_bandar'
+
+2025-07-17 14:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_postcode"), "54200"): Text '54200' is set on object 'Object Repository/NKM/Profil SRB/input_postcode'
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Text '54200' is set on object 'Object Repository/NKM/Profil SRB/input_postcode'
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/Select_negeri"), 0): Object 'Object Repository/NKM/Profil SRB/Select_negeri' is present
+
+2025-07-17 14:11:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/Select_negeri' is present
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/Option_negeri")): Object: 'Object Repository/NKM/Profil SRB/Option_negeri' is clicked on
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/Option_negeri' is clicked on
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_no telephone rumah"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/input_no telephone rumah'
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/input_no telephone rumah'
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/Input_no telephone bimbit"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/Input_no telephone bimbit'
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Profil SRB/Input_no telephone bimbit'
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Profil SRB/input_email"), "rccsituseonly@gmail.com"): Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Profil SRB/input_email'
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Profil SRB/input_email'
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Profil SRB/button_simpan"), 0): Object 'Object Repository/NKM/Profil SRB/button_simpan' is present
+
+2025-07-17 14:11:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Profil SRB/button_simpan' is present
+
+2025-07-17 14:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Profil SRB/button_simpan")): Object: 'Object Repository/NKM/Profil SRB/button_simpan' is clicked on
+
+2025-07-17 14:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Profil SRB/button_simpan' is clicked on
+
+2025-07-17 14:11:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/butiran caruman SRB/input_tarikh mula"), 0): Object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula' is present
+
+2025-07-17 14:11:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula' is present
+
+2025-07-17 14:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/butiran caruman SRB/input_tarikh mula"), "01/01/2025"): Text '01/01/2025' is set on object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula'
+
+2025-07-17 14:11:48 - [MESSAGE][PASSED] - Text '01/01/2025' is set on object 'Object Repository/NKM/butiran caruman SRB/input_tarikh mula'
+
+2025-07-17 14:11:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/butiran caruman SRB/Select_bilangan Caruman"), 0): Object 'Object Repository/NKM/butiran caruman SRB/Select_bilangan Caruman' is present
+
+2025-07-17 14:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/butiran caruman SRB/Select_bilangan Caruman' is present
+
+2025-07-17 14:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/butiran caruman SRB/Option_bilangan Caruman")): Object: 'Object Repository/NKM/butiran caruman SRB/Option_bilangan Caruman' is clicked on
+
+2025-07-17 14:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/butiran caruman SRB/Option_bilangan Caruman' is clicked on
+
+2025-07-17 14:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/butiran caruman SRB/Button_tambah")): Object: 'Object Repository/NKM/butiran caruman SRB/Button_tambah' is clicked on
+
+2025-07-17 14:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/butiran caruman SRB/Button_tambah' is clicked on
+
+2025-07-17 14:11:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/butiran caruman SRB/Button_selanjutnya"), 0): Object 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is present
+
+2025-07-17 14:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is present
+
+2025-07-17 14:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/butiran caruman SRB/Button_selanjutnya")): Object: 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is clicked on
+
+2025-07-17 14:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/butiran caruman SRB/Button_selanjutnya' is clicked on
+
+2025-07-17 14:11:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Butis notis kematian/Select_punca kematian"), 0): Object 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is present
+
+2025-07-17 14:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is present
+
+2025-07-17 14:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butis notis kematian/Select_punca kematian")): Object: 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is clicked on
+
+2025-07-17 14:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butis notis kematian/Select_punca kematian' is clicked on
+
+2025-07-17 14:11:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Butis notis kematian/Option_becana domestik"), 0): Object 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is present
+
+2025-07-17 14:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is present
+
+2025-07-17 14:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butis notis kematian/Option_becana domestik")): Object: 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is clicked on
+
+2025-07-17 14:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butis notis kematian/Option_becana domestik' is clicked on
+
+2025-07-17 14:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butis notis kematian/Textarea_sebab kematian"), "TEST ABC"): Text 'TEST ABC' is set on object 'Object Repository/NKM/Butis notis kematian/Textarea_sebab kematian'
+
+2025-07-17 14:11:51 - [MESSAGE][PASSED] - Text 'TEST ABC' is set on object 'Object Repository/NKM/Butis notis kematian/Textarea_sebab kematian'
+
+2025-07-17 14:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butis notis kematian/Button_simpan")): Object: 'Object Repository/NKM/Butis notis kematian/Button_simpan' is clicked on
+
+2025-07-17 14:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butis notis kematian/Button_simpan' is clicked on
+
+2025-07-17 14:11:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Butiran Pemohon/input_nama pemohon"), 0): Object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon' is present
+
+2025-07-17 14:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon' is present
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_nama pemohon"), womanName): Text 'Nur Aisyah Binti Abu Bakar' is set on object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon'
+
+2025-07-17 14:11:52 - [MESSAGE][PASSED] - Text 'Nur Aisyah Binti Abu Bakar' is set on object 'Object Repository/NKM/Butiran Pemohon/input_nama pemohon'
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - KadPengenalan = ICGenerator.generateRandomIC1(): null
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - println("Generated Name: " + KadPengenalan): null
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_ no kad pengenalan"), KadPengenalan): Text '940807151906' is set on object 'Object Repository/NKM/Butiran Pemohon/input_ no kad pengenalan'
+
+2025-07-17 14:11:52 - [MESSAGE][PASSED] - Text '940807151906' is set on object 'Object Repository/NKM/Butiran Pemohon/input_ no kad pengenalan'
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_alamat"), "Kampung Baru AJL "): Text 'Kampung Baru AJL ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_alamat'
+
+2025-07-17 14:11:52 - [MESSAGE][PASSED] - Text 'Kampung Baru AJL ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_alamat'
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_bandar"), "setapak "): Text 'setapak ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_bandar'
+
+2025-07-17 14:11:52 - [MESSAGE][PASSED] - Text 'setapak ' is set on object 'Object Repository/NKM/Butiran Pemohon/input_bandar'
+
+2025-07-17 14:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_postcode"), "54200"): Text '54200' is set on object 'Object Repository/NKM/Butiran Pemohon/input_postcode'
+
+2025-07-17 14:11:53 - [MESSAGE][PASSED] - Text '54200' is set on object 'Object Repository/NKM/Butiran Pemohon/input_postcode'
+
+2025-07-17 14:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran Pemohon/Select_negeri")): Object: 'Object Repository/NKM/Butiran Pemohon/Select_negeri' is clicked on
+
+2025-07-17 14:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran Pemohon/Select_negeri' is clicked on
+
+2025-07-17 14:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran Pemohon/select_negeri wilayah")): Object: 'Object Repository/NKM/Butiran Pemohon/select_negeri wilayah' is clicked on
+
+2025-07-17 14:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran Pemohon/select_negeri wilayah' is clicked on
+
+2025-07-17 14:11:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/Input_no telephone"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/Input_no telephone'
+
+2025-07-17 14:11:53 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/Input_no telephone'
+
+2025-07-17 14:11:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_telephone bimbit"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/input_telephone bimbit'
+
+2025-07-17 14:11:53 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Butiran Pemohon/input_telephone bimbit'
+
+2025-07-17 14:11:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Butiran Pemohon/input_email"), "rccsituseonly@gmail.com"): Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Butiran Pemohon/input_email'
+
+2025-07-17 14:11:53 - [MESSAGE][PASSED] - Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Butiran Pemohon/input_email'
+
+2025-07-17 14:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran Pemohon/button_simpan")): Object: 'Object Repository/NKM/Butiran Pemohon/button_simpan' is clicked on
+
+2025-07-17 14:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran Pemohon/button_simpan' is clicked on
+
+2025-07-17 14:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_kategori tanggungan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kategori tanggungan' is clicked on
+
+2025-07-17 14:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kategori tanggungan' is clicked on
+
+2025-07-17 14:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_duda dan anak")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda dan anak' is clicked on
+
+2025-07-17 14:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda dan anak' is clicked on
+
+2025-07-17 14:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_pilih")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_pilih' is clicked on
+
+2025-07-17 14:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_pilih' is clicked on
+
+2025-07-17 14:11:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_tambah OT")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_tambah OT' is clicked on
+
+2025-07-17 14:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_tambah OT' is clicked on
+
+2025-07-17 14:11:56 - [TEST_STEP][PASSED] - maleName = ICGenerator.generateRandomMalaysianManName(): null
+
+2025-07-17 14:11:56 - [TEST_STEP][PASSED] - println("Generated Male Malaysian Name: " + maleName): null
+
+2025-07-17 14:11:56 - [TEST_STEP][PASSED] - ic = utils.DynamicICGenerator.generateSingleIC(): utils.DynamicICGenerator.generateSingleIC is PASSED
+
+2025-07-17 14:11:56 - [MESSAGE][PASSED] - utils.DynamicICGenerator.generateSingleIC is PASSED
+
+2025-07-17 14:11:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_Name"), maleName): Text 'Muhammad Hakim Bin Yusof' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_Name'
+
+2025-07-17 14:11:56 - [MESSAGE][PASSED] - Text 'Muhammad Hakim Bin Yusof' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_Name'
+
+2025-07-17 14:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_jenis pengenalan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_jenis pengenalan' is clicked on
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_jenis pengenalan' is clicked on
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_kad baru")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_kad baru' is clicked on
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_kad baru' is clicked on
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_no kad pengenalan"), ic): Text '700718038284' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no kad pengenalan'
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Text '700718038284' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no kad pengenalan'
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_kewarganegaraan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kewarganegaraan' is clicked on
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_kewarganegaraan' is clicked on
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_malaysia")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_malaysia' is clicked on
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_malaysia' is clicked on
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_Hubungan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_Hubungan' is clicked on
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_Hubungan' is clicked on
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_duda")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda' is clicked on
+
+2025-07-17 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_duda' is clicked on
+
+2025-07-17 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_simpan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:11:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB"), 0): Object 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is present
+
+2025-07-17 14:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is present
+
+2025-07-17 14:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is clicked on
+
+2025-07-17 14:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_tinggal serumah SRB' is clicked on
+
+2025-07-17 14:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_Ya")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_Ya' is clicked on
+
+2025-07-17 14:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_Ya' is clicked on
+
+2025-07-17 14:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_no telephone"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone'
+
+2025-07-17 14:11:59 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone'
+
+2025-07-17 14:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit"), "01234567890"): Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit'
+
+2025-07-17 14:11:59 - [MESSAGE][PASSED] - Text '01234567890' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit'
+
+2025-07-17 14:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_email"), "rccsituseonly@gmail.com"): Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_email'
+
+2025-07-17 14:11:59 - [MESSAGE][PASSED] - Text 'rccsituseonly@gmail.com' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_email'
+
+2025-07-17 14:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb"), "01/05/2015"): Text '01/05/2015' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb'
+
+2025-07-17 14:11:59 - [MESSAGE][PASSED] - Text '01/05/2015' is set on object 'Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb'
+
+2025-07-17 14:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_simpan")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_simpan' is clicked on
+
+2025-07-17 14:11:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank"), 0): Object 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is present
+
+2025-07-17 14:12:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:12:00 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is present
+
+2025-07-17 14:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank")): Object: 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is clicked on
+
+2025-07-17 14:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/select_ada akaun bank' is clicked on
+
+2025-07-17 14:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_yes")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_yes' is clicked on
+
+2025-07-17 14:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_yes' is clicked on
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Select_akaun bank")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_akaun bank' is clicked on
+
+2025-07-17 14:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Select_akaun bank' is clicked on
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Option_akaun bank")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_akaun bank' is clicked on
+
+2025-07-17 14:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Option_akaun bank' is clicked on
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/option_1")): Object: 'Object Repository/NKM/Senarai orang tanggungan/option_1' is clicked on
+
+2025-07-17 14:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/option_1' is clicked on
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - accountNumber = ICGenerator.generateRandomBankAccount(): null
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - println("Generated Bank Account Number: " + accountNumber): null
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/Senarai orang tanggungan/input_no akaun bank"), accountNumber): Text '62829670081643' is set on object 'Object Repository/NKM/Senarai orang tanggungan/input_no akaun bank'
+
+2025-07-17 14:12:01 - [MESSAGE][PASSED] - Text '62829670081643' is set on object 'Object Repository/NKM/Senarai orang tanggungan/input_no akaun bank'
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/button_simpann")): Object: 'Object Repository/NKM/Senarai orang tanggungan/button_simpann' is clicked on
+
+2025-07-17 14:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/button_simpann' is clicked on
+
+2025-07-17 14:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Senarai orang tanggungan/Button_selanjutnya")): Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_selanjutnya' is clicked on
+
+2025-07-17 14:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Senarai orang tanggungan/Button_selanjutnya' is clicked on
+
+2025-07-17 14:12:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Button_Tambah Penuntut")): Object: 'Object Repository/NKM/Butiran FPM/Button_Tambah Penuntut' is clicked on
+
+2025-07-17 14:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Button_Tambah Penuntut' is clicked on
+
+2025-07-17 14:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Select_pilih pemohon FPM")): Object: 'Object Repository/NKM/Butiran FPM/Select_pilih pemohon FPM' is clicked on
+
+2025-07-17 14:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Select_pilih pemohon FPM' is clicked on
+
+2025-07-17 14:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Option_yes")): Object: 'Object Repository/NKM/Butiran FPM/Option_yes' is clicked on
+
+2025-07-17 14:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Option_yes' is clicked on
+
+2025-07-17 14:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/button_simpan")): Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Select_Senarai tanggungan")): Object: 'Object Repository/NKM/Butiran FPM/Select_Senarai tanggungan' is clicked on
+
+2025-07-17 14:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Select_Senarai tanggungan' is clicked on
+
+2025-07-17 14:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/option_duda")): Object: 'Object Repository/NKM/Butiran FPM/option_duda' is clicked on
+
+2025-07-17 14:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/option_duda' is clicked on
+
+2025-07-17 14:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/button_simpan")): Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/button_simpan' is clicked on
+
+2025-07-17 14:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Butiran FPM/Button_selanjutnya")): Object: 'Object Repository/NKM/Butiran FPM/Button_selanjutnya' is clicked on
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Butiran FPM/Button_selanjutnya' is clicked on
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/NKM/Document sokongan/input_akaun bank"), 10): Object 'Object Repository/NKM/Document sokongan/input_akaun bank' is present
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/NKM/Document sokongan/input_akaun bank' is present
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - filePath = "C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv": null
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_akaun bank"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_akaun bank'
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_akaun bank'
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_borang SR6"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_borang SR6'
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_borang SR6'
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_salinan kad pengenalan"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_salinan kad pengenalan'
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_salinan kad pengenalan'
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/NKM/Document sokongan/input_sijil kematian"), filePath): File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_sijil kematian'
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - File 'C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv' sent to object: 'Object Repository/NKM/Document sokongan/input_sijil kematian'
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/button_carian")): Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/button_carian' is clicked on
+
+2025-07-17 14:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/Document sokongan/button_selanjutnya")): Object: 'Object Repository/NKM/Document sokongan/button_selanjutnya' is clicked on
+
+2025-07-17 14:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/Document sokongan/button_selanjutnya' is clicked on
+
+2025-07-17 14:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/perakuan/select_pengesahan")): Object: 'Object Repository/NKM/perakuan/select_pengesahan' is clicked on
+
+2025-07-17 14:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/perakuan/select_pengesahan' is clicked on
+
+2025-07-17 14:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/perakuan/Option_ya")): Object: 'Object Repository/NKM/perakuan/Option_ya' is clicked on
+
+2025-07-17 14:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/perakuan/Option_ya' is clicked on
+
+2025-07-17 14:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/perakuan/input_tarikh pengesahan lengkap"), "01/07/2025"): Text '01/07/2025' is set on object 'Object Repository/NKM/perakuan/input_tarikh pengesahan lengkap'
+
+2025-07-17 14:12:10 - [MESSAGE][PASSED] - Text '01/07/2025' is set on object 'Object Repository/NKM/perakuan/input_tarikh pengesahan lengkap'
+
+2025-07-17 14:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/perakuan/button_serah")): Object: 'Object Repository/NKM/perakuan/button_serah' is clicked on
+
+2025-07-17 14:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/perakuan/button_serah' is clicked on
+
+2025-07-17 14:12:10 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2025-07-17 14:12:10 - [MESSAGE][PASSED] - Alert accepted
+
+2025-07-17 14:12:10 - [TEST_STEP][PASSED] - rujukanText = getText(findTestObject("Object Repository/NKM/perakuan/div_no rujukan notis")): Text of object 'Object Repository/NKM/perakuan/div_no rujukan notis' is: 'SR31NKM250000190'
+
+2025-07-17 14:12:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/NKM/perakuan/div_no rujukan notis' is: 'SR31NKM250000190'
+
+2025-07-17 14:12:11 - [TEST_STEP][PASSED] - rujukanNotis = rujukanText: null
+
+2025-07-17 14:12:11 - [TEST_STEP][PASSED] - println("No. Rujukan Notis: " + rujukanNotis): null
+
+2025-07-17 14:12:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Scenario_1/Profil SRB_1' successfully
+
+2025-07-17 14:12:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login page_io user"), null): Call Test Case 'Test Cases/Login page_io user' successfully
+
+2025-07-17 14:12:11 - [TEST_CASE][PASSED] - Test Cases/Login page_io user: Test Cases/Login page_io user
+
+2025-07-17 14:12:11 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:12:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-07-17 14:12:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-07-17 14:12:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-07-17 14:12:14 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:12:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-07-17 14:12:14 - [MESSAGE][PASSED] - Current window maximized
+
+2025-07-17 14:12:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 0): Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:12:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.investigation@perkeso.gov.my "): Text 'user.investigation@perkeso.gov.my ' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:12:14 - [MESSAGE][PASSED] - Text 'user.investigation@perkeso.gov.my ' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:12:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 0): Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:12:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:12:15 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:12:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page_io user' successfully
+
+2025-07-17 14:12:15 - [TEST_STEP][PASSED] - println("No. Rujukan Notis: " + rujukanNotis): null
+
+2025-07-17 14:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/workbasket/a_workbasket")): Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - table = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - rows = table.findElements(By.tagName("tr")): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - targetText = rujukanNotis: null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - isFound = false: null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : rows): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - cells = row.findElements(By.tagName("td")): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell : cells): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetText): null
+
+2025-07-17 14:12:16 - [TEST_STEP][PASSED] - link = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/a_masuk bakul saya"), 10): null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - if (link != null): null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - link.click(): null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Masuk Bakul Saya'"): null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - table2 = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - rows1 = table2.findElements(By.tagName("tr")): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - targetTexts = rujukanNotis: null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - isFounds = false: null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row1 : rows1): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - cells1 = row1.findElements(By.tagName("td")): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell1 : cells1): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetTexts): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - link1 = findWebElement(findTestObject("Object Repository/NKM/IO/Tugasan Saya/span_papar"), 10): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - if (link1 != null): null
+
+2025-07-17 14:12:18 - [TEST_STEP][PASSED] - link1.click(): null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Papar'"): null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_recommend case")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_recommend case' is clicked on
+
+2025-07-17 14:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_recommend case' is clicked on
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_pengesyoran")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_pengesyoran' is clicked on
+
+2025-07-17 14:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_pengesyoran' is clicked on
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_syor lulus penakat")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_syor lulus penakat' is clicked on
+
+2025-07-17 14:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_syor lulus penakat' is clicked on
+
+2025-07-17 14:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/button_semakan domestik")): Object: 'Object Repository/NKM/IO/Tugasan Saya/button_semakan domestik' is clicked on
+
+2025-07-17 14:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/button_semakan domestik' is clicked on
+
+2025-07-17 14:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Textarea_catatan"), "Test ABC"): Text 'Test ABC' is set on object 'Object Repository/NKM/IO/Tugasan Saya/Textarea_catatan'
+
+2025-07-17 14:12:20 - [MESSAGE][PASSED] - Text 'Test ABC' is set on object 'Object Repository/NKM/IO/Tugasan Saya/Textarea_catatan'
+
+2025-07-17 14:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Button_hantar")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:12:20 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2025-07-17 14:12:20 - [MESSAGE][PASSED] - Alert accepted
+
+2025-07-17 14:12:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Scenario_1/IO_menunggu pengesyoran_1' successfully
+
+2025-07-17 14:12:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login page_SAO user"), null): Call Test Case 'Test Cases/Login page_SAO user' successfully
+
+2025-07-17 14:12:20 - [TEST_CASE][PASSED] - Test Cases/Login page_SAO user: Test Cases/Login page_SAO user
+
+2025-07-17 14:12:20 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:12:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-07-17 14:12:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-07-17 14:12:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Current window maximized
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 0): Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.sao@perkeso.gov.my"): Text 'user.sao@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Text 'user.sao@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 0): Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+2025-07-17 14:12:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login page_SAO user' successfully
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - println("No. Rujukan Notis: " + rujukanNotis): null
+
+2025-07-17 14:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/workbasket/a_workbasket")): Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/workbasket/a_workbasket' is clicked on
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - table = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - rows = table.findElements(By.tagName("tr")): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - targetText = rujukanNotis: null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - isFound = false: null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row : rows): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - cells = row.findElements(By.tagName("td")): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell : cells): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetText): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - link = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/a_masuk bakul saya"), 10): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - if (link != null): null
+
+2025-07-17 14:12:25 - [TEST_STEP][PASSED] - link.click(): null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Masuk Bakul Saya'"): null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Notis tuntutan' is clicked on
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - table2 = findWebElement(findTestObject("Object Repository/NKM/IO/workbasket/tbody_table"), 10): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - rows1 = table2.findElements(By.tagName("tr")): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - targetTexts = rujukanNotis: null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - isFounds = false: null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement row1 : rows1): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - cells1 = row1.findElements(By.tagName("td")): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement cell1 : cells1): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - if (getText().trim() == targetText): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - println("✅ Match found: " + targetTexts): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - link1 = findWebElement(findTestObject("Object Repository/NKM/IO/Tugasan Saya/span_papar"), 10): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - if (link1 != null): null
+
+2025-07-17 14:12:27 - [TEST_STEP][PASSED] - link1.click(): null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - println("🖱️ Clicked on 'Papar'"): null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - isFound = true: null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - if (isFound): null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - break: null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - if (!(isFound)): null
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih' is clicked on
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_lulus penakat")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus penakat' is clicked on
+
+2025-07-17 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus penakat' is clicked on
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Button_semak bencana domestik")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_semak bencana domestik' is clicked on
+
+2025-07-17 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_semak bencana domestik' is clicked on
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Select_Status kelulusan")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_Status kelulusan' is clicked on
+
+2025-07-17 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Select_Status kelulusan' is clicked on
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Option_lulus")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus' is clicked on
+
+2025-07-17 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Option_lulus' is clicked on
+
+2025-07-17 14:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NKM/IO/Tugasan Saya/text_catatan pelulus"), "ABC TEST"): Text 'ABC TEST' is set on object 'Object Repository/NKM/IO/Tugasan Saya/text_catatan pelulus'
+
+2025-07-17 14:12:29 - [MESSAGE][PASSED] - Text 'ABC TEST' is set on object 'Object Repository/NKM/IO/Tugasan Saya/text_catatan pelulus'
+
+2025-07-17 14:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NKM/IO/Tugasan Saya/Button_hantar")): Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/NKM/IO/Tugasan Saya/Button_hantar' is clicked on
+
+2025-07-17 14:12:29 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2025-07-17 14:12:29 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-07-17 14:10:29 - [TEST_SUITE][PASSED] - NKM End to End: Test Cases/Test Scenario_1/SAO_lulus_1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

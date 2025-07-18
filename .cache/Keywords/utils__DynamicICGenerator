@@ -1,0 +1,40 @@
+{
+  "keywordFileContentHash": "8C2315AAB191F377082E059DDD982E5B",
+  "keywordClasses": [
+    {
+      "name": "utils.DynamicICGenerator",
+      "keywordMethods": [
+        {
+          "name": "generateSingleIC",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getTodayDateInFormat",
+          "parameters": [
+            {
+              "name": "format",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getTodayDateInFormat",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

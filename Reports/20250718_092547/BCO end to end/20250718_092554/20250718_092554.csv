@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BCO end to end,Chrome 138.0.0.0,,,2025-07-18 09:25:56,2025-07-18 09:27:14,1m - 18.149s,PASSED
+,,,,,,,
+Test Cases/NKM/BCO/BCO_syor lulus,Chrome 138.0.0.0,,,2025-07-18 09:25:57,2025-07-18 09:27:14,1m - 17.886s,PASSED
+"callTestCase(findTestCase(""Test Cases/NKM/SAO_LULUS Pengesyoran/SAO_lulus kes""), null)",Chrome 138.0.0.0,,,2025-07-18 09:25:57,2025-07-18 09:27:04,1m - 6.961s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login page_BCO user""), null)",Chrome 138.0.0.0,,,2025-07-18 09:27:04,2025-07-18 09:27:08,4.382s,PASSED
+"println(""No. Rujukan Notis: "" + rujukanNotis)",Chrome 138.0.0.0,,,2025-07-18 09:27:08,2025-07-18 09:27:08,0.001s,PASSED
+"click(findTestObject(""Object Repository/NKM/IO/workbasket/a_workbasket""))",Chrome 138.0.0.0,,,2025-07-18 09:27:08,2025-07-18 09:27:10,1.622s,PASSED
+"click(findTestObject(""Object Repository/NKM/BCO/a_butiran faedah""))",Chrome 138.0.0.0,,,2025-07-18 09:27:10,2025-07-18 09:27:11,0.807s,PASSED
+"table = findWebElement(findTestObject(""Object Repository/NKM/IO/workbasket/tbody_table""), 10)",Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:11,0.056s,PASSED
+"rows = table.findElements(By.tagName(""tr""))",Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:11,0.033s,PASSED
+targetText = rujukanNotis,Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:11,0.000s,PASSED
+"targetTexts = targetText.replace(""NKM"", ""PKT"")",Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:11,0.001s,PASSED
+"println(""Updated No. Rujukan Notis: "" + targetTexts)",Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:11,0.000s,PASSED
+isFound = false,Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:11,0.000s,PASSED
+for (org.openqa.selenium.WebElement row : rows),Chrome 138.0.0.0,,,2025-07-18 09:27:11,2025-07-18 09:27:12,0.976s,PASSED
+if (!(isFound)),Chrome 138.0.0.0,,,2025-07-18 09:27:12,2025-07-18 09:27:12,0.000s,PASSED
+"click(findTestObject(""Object Repository/NKM/BCO/a_butiran faedah""))",Chrome 138.0.0.0,,,2025-07-18 09:27:12,2025-07-18 09:27:13,0.842s,PASSED
+"table2 = findWebElement(findTestObject(""Object Repository/NKM/IO/workbasket/tbody_table""), 10)",Chrome 138.0.0.0,,,2025-07-18 09:27:13,2025-07-18 09:27:13,0.039s,PASSED
+"rows1 = table2.findElements(By.tagName(""tr""))",Chrome 138.0.0.0,,,2025-07-18 09:27:13,2025-07-18 09:27:13,0.032s,PASSED
+isFounds = false,Chrome 138.0.0.0,,,2025-07-18 09:27:13,2025-07-18 09:27:13,0.000s,PASSED
+for (org.openqa.selenium.WebElement row1 : rows1),Chrome 138.0.0.0,,,2025-07-18 09:27:13,2025-07-18 09:27:13,0.145s,PASSED
+if (!(isFound)),Chrome 138.0.0.0,,,2025-07-18 09:27:13,2025-07-18 09:27:13,0.000s,PASSED
+"click(findTestObject(""Object Repository/NKM/IO/Tugasan Saya/Select_sila pilih""))",Chrome 138.0.0.0,,,2025-07-18 09:27:13,2025-07-18 09:27:14,1.061s,PASSED
+"click(findTestObject(""Object Repository/NKM/BCO/option_pengesyoran kes""))",Chrome 138.0.0.0,,,2025-07-18 09:27:14,2025-07-18 09:27:14,0.085s,PASSED
+"click(findTestObject(""Object Repository/NKM/BCO/select_penyosoran""))",Chrome 138.0.0.0,,,2025-07-18 09:27:14,2025-07-18 09:27:14,0.162s,PASSED
+"click(findTestObject(""Object Repository/NKM/BCO/option_pengeysoran kes""))",Chrome 138.0.0.0,,,2025-07-18 09:27:14,2025-07-18 09:27:14,0.102s,PASSED
+"setText(findTestObject(""Object Repository/NKM/BCO/Textarea""), ""TEST ABC"")",Chrome 138.0.0.0,,,2025-07-18 09:27:14,2025-07-18 09:27:14,0.140s,PASSED
+"click(findTestObject(""Object Repository/NKM/IO/Tugasan Saya/Button_hantar""))",Chrome 138.0.0.0,,,2025-07-18 09:27:14,2025-07-18 09:27:14,0.097s,PASSED
+acceptAlert(),Chrome 138.0.0.0,,,2025-07-18 09:27:14,2025-07-18 09:27:14,0.013s,PASSED

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_penyosoran</name>
+   <tag></tag>
+   <elementGuidId>7a3af82f-ff3f-4f5c-8063-5d603ea2f449</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='_myworkbasket_WAR_skssrbenefitportlet_INSTANCE_BABG2pr5LGfB_recommendationType']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
