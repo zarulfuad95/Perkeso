@@ -1,0 +1,34 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-18 09:35:36.972 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test docker
+2025-07-18 09:35:37.078 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Zarul
+2025-07-18 09:35:37.081 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation-Test
+2025-07-18 09:35:37.084 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = root - 228a3c9e76b1
+2025-07-18 09:35:37.085 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Linux 64bit
+2025-07-18 09:35:37.087 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.17.0.4
+2025-07-18 09:35:37.090 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.4.0
+2025-07-18 09:35:37.710 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-18 09:35:37.711 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/test Docker
+2025-07-18 09:35:38.847 DEBUG testcase.test Docker                     - 1: openBrowser("http://172.24.65.22:8081")
+2025-07-18 09:35:39.426 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2025-07-18 09:35:39.542 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 18, 2025 9:35:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-18 09:35:44.183 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1610d2ae7214b5460bf412594b027dbb
+2025-07-18 09:35:44.185 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.100
+2025-07-18 09:35:44.187 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2025-07-18 09:35:44.189 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-18 09:35:44.201 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-18 09:35:46.056 DEBUG testcase.test Docker                     - 2: maximizeWindow()
+2025-07-18 09:35:46.180 DEBUG testcase.test Docker                     - 3: try
+2025-07-18 09:35:46.183 DEBUG testcase.test Docker                     - 1: waitForElementVisible(findTestObject("Object Repository/Login/username"), 10)
+2025-07-18 09:35:47.023 DEBUG testcase.test Docker                     - 2: setText(findTestObject("Object Repository/Login/username"), "user.pk@perkeso.gov.my")
+2025-07-18 09:35:47.988 DEBUG testcase.test Docker                     - 3: waitForElementVisible(findTestObject("Object Repository/Login/Password"), 10)
+2025-07-18 09:35:48.256 DEBUG testcase.test Docker                     - 4: setText(findTestObject("Object Repository/Login/Password"), "skssr1234")
+2025-07-18 09:35:48.853 DEBUG testcase.test Docker                     - 5: click(findTestObject("Object Repository/Login/sign in button"))
+2025-07-18 09:35:49.542 DEBUG testcase.test Docker                     - 6: println("### LOGIN SUCCESSFUL ###")
+### LOGIN SUCCESSFUL ###
+2025-07-18 09:35:49.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/test Docker
+2025-07-18 09:35:49.710 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-18 09:35:49.710 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test docker
+2025-07-18 09:35:49.710 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

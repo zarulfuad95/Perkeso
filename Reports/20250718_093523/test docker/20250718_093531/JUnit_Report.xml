@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test docker" time="12.508" tests="1" failures="0" errors="0">
+   <testsuite name="test docker" tests="1" failures="0" errors="0" time="12.508" skipped="0" timestamp="2025-07-18T09:35:37.052Z" hostname="root - 228a3c9e76b1" id="Test Suites/test docker">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/katalon/project/Reports/20250718_093523/test docker/20250718_093531"/>
+         <property name="logFiles" value="/katalon/project/Reports/20250718_093523/test docker/20250718_093531/console0.log, /katalon/project/Reports/20250718_093523/test docker/20250718_093531/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="root - 228a3c9e76b1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="10.2.4.0"/>
+         <property name="browser" value="Chrome 138.0.7204.100"/>
+         <property name="userFullName" value="Zarul"/>
+         <property name="hostAddress" value="172.17.0.4"/>
+         <property name="sessionId" value="1610d2ae7214b5460bf412594b027dbb"/>
+         <property name="projectName" value="Automation-Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/test Docker" time="11.849" classname="Test Cases/test Docker" status="PASSED">
+         <system-out><![CDATA[18-07-2025T09:35:37 - [TEST_CASE][PASSED] - Test Cases/test Docker: Test Cases/test Docker
+
+18-07-2025T09:35:38 - [TEST_STEP][PASSED] - openBrowser("http://172.24.65.22:8081"): Browser is opened with url: 'http://172.24.65.22:8081'
+
+18-07-2025T09:35:39 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+18-07-2025T09:35:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-07-2025T09:35:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.65.22:8081'
+
+18-07-2025T09:35:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-07-2025T09:35:46 - [MESSAGE][PASSED] - Current window maximized
+
+18-07-2025T09:35:46 - [TEST_STEP][PASSED] - try: null
+
+18-07-2025T09:35:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/username"), 10): Object 'Object Repository/Login/username' is visible
+
+18-07-2025T09:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is visible
+
+18-07-2025T09:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/username"), "user.pk@perkeso.gov.my"): Text 'user.pk@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+18-07-2025T09:35:47 - [MESSAGE][PASSED] - Text 'user.pk@perkeso.gov.my' is set on object 'Object Repository/Login/username'
+
+18-07-2025T09:35:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Login/Password"), 10): Object 'Object Repository/Login/Password' is visible
+
+18-07-2025T09:35:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Password' is visible
+
+18-07-2025T09:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Password"), "skssr1234"): Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+18-07-2025T09:35:48 - [MESSAGE][PASSED] - Text 'skssr1234' is set on object 'Object Repository/Login/Password'
+
+18-07-2025T09:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/sign in button")): Object: 'Object Repository/Login/sign in button' is clicked on
+
+18-07-2025T09:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/sign in button' is clicked on
+
+18-07-2025T09:35:49 - [TEST_STEP][PASSED] - println("### LOGIN SUCCESSFUL ###"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-07-2025T09:35:37 - [TEST_SUITE][PASSED] - test docker: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

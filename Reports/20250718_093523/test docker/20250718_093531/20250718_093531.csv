@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test docker,Chrome 138.0.7204.100,,,18-07-2025 09:35:37,18-07-2025 09:35:49,12.658s,PASSED
+,,,,,,,
+Test Cases/test Docker,Chrome 138.0.7204.100,,,18-07-2025 09:35:37,18-07-2025 09:35:49,11.849s,PASSED
+"openBrowser(""http://172.24.65.22:8081"")",Chrome 138.0.7204.100,,,18-07-2025 09:35:38,18-07-2025 09:35:46,7.209s,PASSED
+maximizeWindow(),Chrome 138.0.7204.100,,,18-07-2025 09:35:46,18-07-2025 09:35:46,0.121s,PASSED
+try,Chrome 138.0.7204.100,,,18-07-2025 09:35:46,18-07-2025 09:35:49,3.373s,PASSED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test docker,Chrome 138.0.7204.100,,,18-07-2025 09:26:32,18-07-2025 09:26:43,11.141s,PASSED
+,,,,,,,
+Test Cases/test Docker,Chrome 138.0.7204.100,,,18-07-2025 09:26:33,18-07-2025 09:26:43,10.141s,PASSED
+"openBrowser(""http://172.24.65.22:8081"")",Chrome 138.0.7204.100,,,18-07-2025 09:26:34,18-07-2025 09:26:40,6.050s,PASSED
+maximizeWindow(),Chrome 138.0.7204.100,,,18-07-2025 09:26:40,18-07-2025 09:26:40,0.100s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Login/username""), 0)",Chrome 138.0.7204.100,,,18-07-2025 09:26:40,18-07-2025 09:26:41,0.876s,PASSED
+"setText(findTestObject(""Object Repository/Login/username""), ""user.pk@perkeso.gov.my"")",Chrome 138.0.7204.100,,,18-07-2025 09:26:41,18-07-2025 09:26:42,0.884s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Login/Password""), 0)",Chrome 138.0.7204.100,,,18-07-2025 09:26:42,18-07-2025 09:26:42,0.273s,PASSED
+"setText(findTestObject(""Object Repository/Login/Password""), ""skssr1234"")",Chrome 138.0.7204.100,,,18-07-2025 09:26:42,18-07-2025 09:26:42,0.563s,PASSED
+"click(findTestObject(""Object Repository/Login/sign in button""))",Chrome 138.0.7204.100,,,18-07-2025 09:26:42,18-07-2025 09:26:43,0.370s,PASSED
