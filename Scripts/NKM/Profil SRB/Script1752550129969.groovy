@@ -172,7 +172,7 @@ WebUI.click(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Selec
 WebUI.click(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Option_Ya'))
 WebUI.setText(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Input_no telephone'), '01234567890')
 WebUI.setText(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Input_no telephone bimbit'), '01234567890')
-WebUI.setText(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Input_email'), 'rccsituseonly@gmail.com')
+//WebUI.setText(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Input_email'), 'rccsituseonly@gmail.com')
 
 WebUI.setText(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Input_tarikh berkahwin dgn srb'), '01/05/2015')
 WebUI.click(findTestObject('Object Repository/NKM/Senarai orang tanggungan/Button_simpan'))
@@ -210,7 +210,18 @@ WebUI.click(findTestObject('Object Repository/NKM/Butiran FPM/Button_selanjutnya
 // Wait for the upload field to appear
 WebUI.waitForElementPresent(findTestObject('Object Repository/NKM/Document sokongan/input_akaun bank'), 10)
 
-String filePath = "C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv"
+
+//String filePath = "C:/Users/aaror/Downloads/Untitled spreadsheet - Sheet1.csv"
+
+// Get user's home directory dynamically
+String userHome = System.getProperty("user.home");
+
+// Construct dynamic file path
+String filePath = userHome + "/Downloads/Untitled spreadsheet - Sheet1.csv";
+
+// Print to verify
+System.out.println("File Path: " + filePath);
+
 
 // Use WebUI.uploadFile to upload into the target input field
 WebUI.uploadFile(

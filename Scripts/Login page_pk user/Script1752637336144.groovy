@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://172.24.65.22:8081')
+//WebUI.openBrowser('http://host.docker.internal:8081')
+
 WebUI.maximizeWindow()
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Login/username'), 0)
